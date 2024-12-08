@@ -1,5 +1,5 @@
 def act25():
-    #list
+   
     courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
     courses.remove("Delete w/o index")
@@ -9,4 +9,4 @@ def act25():
 
     print(courses)
 
-    #i check w3schools for the methods in list, theres a lot i know but i think this will be mostly used 
+   
