@@ -87,54 +87,54 @@ def run():
 
                 desicion = input("\n\tDo You Want To Denominate Your Current Balance? [Yes / No]: ").strip().upper()
 
-            if desicion == "YES":
+                if desicion == "YES":
 
-                ans1 = account[name] // 1000
-                num1 = account[name] % 1000
+                    ans1 = self.bal(initial_deposit) // 1000
+                    num1 = BankAccount(initial_deposit) % 1000
 
-                ans2 = num1 // 500
-                num2 = num1 % 500
+                    ans2 = num1 // 500
+                    num2 = num1 % 500
 
-                ans3 = num2 // 200
-                num3 = num2 % 200
+                    ans3 = num2 // 200
+                    num3 = num2 % 200
 
-                ans4 = num3 // 100
-                num4 = num3 % 100
+                    ans4 = num3 // 100
+                    num4 = num3 % 100
 
-                ans5 = num4 // 50
-                num5 = num4 % 50
+                    ans5 = num4 // 50
+                    num5 = num4 % 50
 
-                ans6 = num5 // 20
-                num6 = num5 % 20
+                    ans6 = num5 // 20
+                    num6 = num5 % 20
 
-                ans7 = num6 // 10
-                num7 = num6 % 10
+                    ans7 = num6 // 10
+                    num7 = num6 % 10
 
-                ans8 = num7 // 5
-                num8 = num7 % 5
+                    ans8 = num7 // 5
+                    num8 = num7 % 5
 
-                ans9 = num8 // 1
+                    ans9 = num8 // 1
 
-                print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
-                print(f"\n\n\t\t₱1000 - {ans1}"
-                f"\n\t\t₱500 - {ans2}"
-                f"\n\t\t₱200 - {ans3}"
-                f"\n\t\t₱100 - {ans4}"
-                f"\n\t\t₱50 - {ans5}"
-                f"\n\t\t₱20 - {ans6}"
-                f"\n\t\t₱10 - {ans7}"
-                f"\n\t\t₱5 - {ans8}"
-                f"\n\t\t₱1 - {ans9}")
-            
-            break
+                    print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+                    print(f"\n\n\t\t₱1000 - {ans1}"
+                    f"\n\t\t₱500 - {ans2}"
+                    f"\n\t\t₱200 - {ans3}"
+                    f"\n\t\t₱100 - {ans4}"
+                    f"\n\t\t₱50 - {ans5}"
+                    f"\n\t\t₱20 - {ans6}"
+                    f"\n\t\t₱10 - {ans7}"
+                    f"\n\t\t₱5 - {ans8}"
+                    f"\n\t\t₱1 - {ans9}")
+                
+                    break
 
-        elif desicion == "NO":
-                print("\n\tDenomination Cancelled.")
-                return
+                elif desicion == "NO":
+                        print("\n\tDenomination Cancelled.")
+                        return
 
-        else:
-            print("\n\n\tError. Wrong Input.")
-            continue
+                else:
+                    print("\n\n\tError. Wrong Input.")
+                    continue
             
 if __name__ == "__main__":
     run()
