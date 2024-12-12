@@ -81,3 +81,15 @@ def act22():
         round = (round(cel, 2))
 
         print(f" The convension of {temp} degrees farenheit is {round} degrees celcius. ")
+    
+    def act6():
+        x = 5
+        print(x)
+
+        x += 10
+        print(x)
+
+        x += 15
+        print(x)
+        x += 30
+        print(x)
