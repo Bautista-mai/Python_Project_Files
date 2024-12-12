@@ -15,6 +15,7 @@ def act22():
         print(num1, "Floor Divided to", num2 , "=", num1 // num2)
 
     def act3():
+        """Bio Data"""
         print("\tPersonal Bio Data Registration:")
 
 
