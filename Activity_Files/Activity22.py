@@ -8,6 +8,7 @@ def act22():
             "* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t*")
         
     def act2():
+        """Flr Division"""
         num1 = int(input("Enter a number: "))
         num2 = int(input("Enter another number: "))
 
