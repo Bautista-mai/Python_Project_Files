@@ -185,4 +185,13 @@ def act22():
         for i in range(10, 1, -1):
             print(i)
 
+    def act13():
+        sum = 0
+        for i in range(6, 0, -1):
+            i *= i
+            sum += i
+
+        print(i)
+        print(sum)         
+
         """Unfinished work act 10 to act 25 is still not done"""
