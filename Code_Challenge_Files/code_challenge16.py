@@ -89,8 +89,8 @@ def run():
 
                 if desicion == "YES":
 
-                    ans1 = self.bal(initial_deposit) // 1000
-                    num1 = BankAccount(initial_deposit) % 1000
+                    ans1 = balance // 1000
+                    num1 = balance % 1000
 
                     ans2 = num1 // 500
                     num2 = num1 % 500
