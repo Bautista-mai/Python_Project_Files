@@ -173,6 +173,12 @@ def act22():
         else:
             print("Thank you for using the system")
 
-    
+    def act11():
+        for i in range(89):
+            print("Codieeee")
+            print("Keep going")
+            
+            cute = False
+            print(f"{cute}, that I'm cute")
 
         """Unfinished work act 10 to act 25 is still not done"""
