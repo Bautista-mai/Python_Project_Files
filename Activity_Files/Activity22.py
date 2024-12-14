@@ -181,4 +181,8 @@ def act22():
             cute = False
             print(f"{cute}, that I'm cute")
 
+    def act12():
+        for i in range(10, 1, -1):
+            print(i)
+
         """Unfinished work act 10 to act 25 is still not done"""
