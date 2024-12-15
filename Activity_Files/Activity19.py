@@ -12,3 +12,5 @@ def act19():
         else:
             print(f"Hi {name}")
             continue
+
+act19()

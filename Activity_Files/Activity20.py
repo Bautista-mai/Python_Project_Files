@@ -13,3 +13,5 @@ def act20():
         else:
             count += 1
             continue
+
+act20()

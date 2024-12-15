@@ -6,3 +6,5 @@ def act16():
             print("*",end=" ")
 
         print()
+
+act16()

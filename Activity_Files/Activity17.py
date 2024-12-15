@@ -18,3 +18,5 @@ def act17():
             print("*",end=" ")
 
         print()
+
+act17()
