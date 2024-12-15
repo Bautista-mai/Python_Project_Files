@@ -9,3 +9,5 @@ def Act6():
     print(x)
     x += 30
     print(x)
+
+Act6()

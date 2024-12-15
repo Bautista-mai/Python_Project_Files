@@ -19,3 +19,5 @@ def Act4():
     print("The exponent of" , number1, " and " , number2, " is " , answer5)
     print("The remainder of" , number1, " and " , number2, " is " , answer6)
     print("The floor division of" , number1, " and " , number2, " is " , answer7)
+
+Act4()

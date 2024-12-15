@@ -31,3 +31,5 @@ def Act3():
     print("\n\n\tPersonal Complete Bio Data:")
 
     print("\n\tGood day, My name is "+fullname+"!. I am "+gender+" and I'm currently ", age," years old. I was born on "+birthday+" in "+birthplace+". My parents name are "+f_name+" and "+m_name+". I am "+marital+" and I'm "+citizenship+" citizen, I belong to the "+religion+" religion and my weight and height are "+weight+" kg and "+height+" cm. I speak "+language+" languages. And my hobbies are "+hobbies+". I'm currently living in "+subd+","+street+","+brgy+","+city+","+province+" and you can contact me at", contact," or "+email+". Lastly, I'm currently a college student, I'm enrolled in DLL and my course is BSIT", bsit)
+
+Act3()

@@ -17,4 +17,4 @@ def Act10():
     else:
         print("Thank you for using the system")
 
-
+Act10()

@@ -12,4 +12,6 @@ def Act7():
         print("Please input a gold")
 
     else:
-        print("Invalid input")    
+        print("Invalid input")
+
+Act7()
