@@ -1,4 +1,4 @@
-def act22():
+def Act22():
     def act1():
         """Star"""
         print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t* \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b"

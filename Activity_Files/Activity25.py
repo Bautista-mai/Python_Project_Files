@@ -1,4 +1,4 @@
-def act25():
+def Act25():
     courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
     courses.remove("Delete w/o index")
@@ -8,4 +8,4 @@ def act25():
 
     print(courses)
 
-act25()
+Act25()

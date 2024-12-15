@@ -1,4 +1,4 @@
-def act21():
+def Act21():
     def cute():
         print("Hello, you're cute")
 
@@ -16,4 +16,4 @@ def act21():
     cute()
     tri()
 
-act21()
+Act21()
