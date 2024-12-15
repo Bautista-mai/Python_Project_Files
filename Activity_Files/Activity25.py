@@ -7,3 +7,5 @@ def act25():
     courses.insert(0, "ABELS")
 
     print(courses)
+
+act25()

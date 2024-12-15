@@ -16,3 +16,4 @@ def act21():
     cute()
     tri()
 
+act21()
