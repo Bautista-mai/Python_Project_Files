@@ -1,4 +1,4 @@
-def act20():
+def Act20():
     continu = True
     count = 0
 
@@ -14,4 +14,4 @@ def act20():
             count += 1
             continue
 
-act20()
+Act20()

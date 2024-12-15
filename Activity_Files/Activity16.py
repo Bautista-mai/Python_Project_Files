@@ -1,4 +1,4 @@
-def act16():
+def Act16():
     for x in range(1, 11):
         for z in range(1, x + 1):
             print(" ",end=" ")
@@ -7,4 +7,4 @@ def act16():
 
         print()
 
-act16()
+Act16()

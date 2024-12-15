@@ -1,4 +1,4 @@
-def act13():
+def Act13():
     sum = 0
     for i in range(6, 0, -1):
         i *= i
@@ -7,4 +7,4 @@ def act13():
     print(i)
     print(sum)
 
-act13()
+Act13()

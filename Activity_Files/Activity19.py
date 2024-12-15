@@ -1,4 +1,4 @@
-def act19():
+def Act19():
     isContinue = True
 
     while isContinue:
@@ -13,4 +13,4 @@ def act19():
             print(f"Hi {name}")
             continue
 
-act19()
+Act19()

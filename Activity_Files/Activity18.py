@@ -1,4 +1,4 @@
-def act18():
+def Act18():
     num = int(input("Enter a number of right tringle: "))
 
     for i in range(1, 6):
@@ -11,4 +11,4 @@ def act18():
 
         print()
 
-act18()
+Act18()
