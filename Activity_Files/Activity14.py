@@ -4,3 +4,5 @@ def act14():
         for a in range(0,11):
             print("*",end=(" "))
         print()
+
+act14()

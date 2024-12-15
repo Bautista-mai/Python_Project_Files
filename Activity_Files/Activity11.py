@@ -5,3 +5,5 @@ def act11():
         
         cute = False
         print(f"{cute}, that I'm cute") 
+
+act11()

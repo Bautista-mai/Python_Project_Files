@@ -5,4 +5,6 @@ def act13():
         sum += i
 
     print(i)
-    print(sum)         
+    print(sum)
+
+act13()
