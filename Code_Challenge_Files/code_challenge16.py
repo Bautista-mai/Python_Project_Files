@@ -117,7 +117,7 @@ def code16():
 
                         ans9 = num8 // 1
 
-                        print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+                        print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{ acc[name]}")
                         print(f"\n\n\t\t₱1000 - {ans1}"
                         f"\n\t\t₱500 - {ans2}"
                         f"\n\t\t₱200 - {ans3}"
