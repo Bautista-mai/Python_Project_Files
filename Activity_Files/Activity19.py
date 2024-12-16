@@ -13,4 +13,3 @@ def Act19():
             print(f"Hi {name}")
             continue
 
-Act19()
