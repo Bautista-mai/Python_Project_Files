@@ -6,4 +6,3 @@ def Act11():
         cute = False
         print(f"{cute}, that I'm cute") 
 
-Act11()
