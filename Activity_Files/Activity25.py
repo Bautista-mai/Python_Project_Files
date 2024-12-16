@@ -8,4 +8,3 @@ def Act25():
 
     print(courses)
 
-Act25()
