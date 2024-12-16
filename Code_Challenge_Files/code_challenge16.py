@@ -1,3 +1,5 @@
+def code16():
+
 def denom(amount):
 
     deno = [1000, 500, 200, 100, 50, 20, 10, 5, 1]
