@@ -10,4 +10,3 @@ def Act6():
     x += 30
     print(x)
 
-Act6()

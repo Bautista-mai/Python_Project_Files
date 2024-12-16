@@ -21,4 +21,3 @@ def Act9():
     else:
         print("Invalid input")
 
-Act9()

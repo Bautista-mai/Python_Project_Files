@@ -16,4 +16,3 @@ def Act8():
     else:
         print("Sorry, You failed")
 
-Act8()
