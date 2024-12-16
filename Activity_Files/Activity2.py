@@ -4,4 +4,3 @@ def Act2():
 
     print(num1, "Floor Divided to", num2 , "=", num1 // num2)
 
-Act2()

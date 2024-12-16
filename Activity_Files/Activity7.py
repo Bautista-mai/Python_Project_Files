@@ -14,4 +14,3 @@ def Act7():
     else:
         print("Invalid input")
 
-Act7()

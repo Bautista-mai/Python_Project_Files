@@ -6,4 +6,3 @@ def Act5():
 
     print(f" The convension of {temp} degrees farenheit is {round} degrees celcius. ")
 
-Act5()
