@@ -27,7 +27,7 @@ def Acts():
             
                     "\n1 - Activities Compilations\n"
                     "2 - Code_challenge_Compilations\n"
-                    "0 - Terminate "
+                    "0 - Terminate\n"
             
             "\n\n\t 1  - Activity_1  \t 14  - Activity_14"
                 "\n\t 2  - Activity_2  \t 15  - Activity_15"
@@ -41,108 +41,86 @@ def Acts():
                 "\n\t 10  - Activity_10  \t 23  - Activity_23"
                 "\n\t 11  - Activity_11  \t 24  - Activity_24"
                 "\n\t 12  - Activity_12  \t 25  - Activity_25"
-                "\n\t 13  - Activity_13  \t 0  - Terminate "
+                "\n\t 13  - Activity_13  \t 0  - Terminate\n"
                 
                 )
         
-            num = int(input("\n\n\tChoose A Number: "))
+            cho = int(input("Choose A Number: "))
 
-            if num == 1:
+            if cho == 1:
                 Activity1.Act1()
-            elif num == 2:
+            elif cho == 2:
                 Activity2.Act2()
-            elif num == 3:
+            elif cho == 3:
                 Activity3.Act3()
-            elif num == 4:
+            elif cho == 4:
                 Activity4.Act4()
-            elif num == 5:
+            elif cho == 5:
                 Activity5.Act5()
-            elif num == 6:
+            elif cho == 6:
                 Activity6.Act6()
-            elif num == 7:
+            elif cho == 7:
                 Activity7.Act7()
-            elif num == 8:
+            elif cho == 8:
                 Activity8.Act8()
-            elif num == 9:
+            elif cho == 9:
                 Activity9.Act9()
-            elif num == 10:
+            elif cho == 10:
                 Activity10.Act10()
-            elif num == 11:
+            elif cho == 11:
                 Activity11.Act11()
-            elif num == 12:
+            elif cho == 12:
                 Activity12.Act12()
-            elif num == 13:
+            elif cho == 13:
                 Activity13.Act13()
-            elif num == 14:
+            elif cho == 14:
                 Activity14.Act14()
-            elif num == 15:
+            elif cho == 15:
                 Activity15.Act15()
-            elif num == 16:
+            elif cho == 16:
                 Activity16.Act16()
-            elif num == 17:
+            elif cho == 17:
                 Activity17.Act17()
-            elif num == 18:
+            elif cho == 18:
                 Activity18.Act18()
-            elif num == 19:
+            elif cho == 19:
                 Activity19.Act19()
-            elif num == 20:
+            elif cho == 20:
                 Activity20.Act20()
-            elif num == 21:
+            elif cho == 21:
                 Activity21.Act21()
-            elif num == 22:
+            elif cho == 22:
                 Activity22.Act22()
-            elif num == 23:
+            elif cho == 23:
                 Activity23.Act23()
-            elif num == 24:
+            elif cho == 24:
                 Activity24.Act24()
-            elif num == 25:
+            elif cho == 25:
                 Activity25.Act25()
 
-            elif num == 0:
-                print("This Activities wll now be terminated")
-                menu()
-                break
-            elif num < 0:
+            elif cho == 0:
+                print("This Activities  be terminated")
+                sur = input("Are you sure? (Yes/No): ").strip().lower()
+                          
+                if sur == "yes":
+                    delete()
+                    print("The Activities will finally terminated")
+                    break
+
+                elif sur == "no":
+                    delete()
+                    print("The Activities will still continue")
+                    continue
+
+                else:
+                    print("Invalid Input")
+
+            elif cho < 0:
                 print("Error. Enter A Positive Number.")
-            elif num >= 26:
+            elif cho >= 26:
                 print("Error.  Enter A number from the choices")
             else:
                 print("Invalid input")
-
-        
-def delete():
-    os.system("cls")
-
-def menu():
-    while True:
-        print("\nCOMPILATION OF PROJECTS\n"
-              "--------------------------\n"
-              "---------> MENU <---------\n"
-              
-              
-              "\n1 - Activities Compilations\n"
-              "2 - Code_challenge_Compilations\n"
-              "3 - Terminate "
-              
-              )
-        
-        choose = int(input("Choose A number: "))
-
-        if choose == 1:
-                Acts()
-        elif choose == 2:
-                codes()
-        elif choose == 0:
-            print("\n\t[The Final Project will now be terminated.]"
-                "\n")
-            break
-        elif choose < 0:
-            print("Please Enter A Positive Number.")
-        elif choose >= 5:
-            print("Enter a number from the choices.")
-        else:
-            print("Invalid Input")
-        
         
 def codes():
     while True:
@@ -211,15 +189,73 @@ def codes():
             Code_Challenge16.code16()
     
         elif choi == 0:
-                print("This Activities will now be terminated")
-                menu()
-                break
+                print("This Activities  be terminated")
+
+                sur = input("Are you sure? (Yes/No): ").strip().lower()          
+                if sur == "yes":
+                    delete()
+                    print("The Activities will finally terminated")
+                    break
+
+                elif sur == "no":
+                    delete()
+                    print("The Activities will still continue")
+                    continue
+
+                else:
+                    print("Invalid Input")
+
         elif choi < 0:
             print("Error. Enter A Positive Number.")
-        elif choi >= 26:
+        elif choi >= 17:
             print("Error.  Enter A number from the choices")
         else:
             print("Invalid input")
 
+def delete():
+    os.system("cls")
+
+def menu():
+    while True:
+        print("\nCOMPILATION OF PROJECTS\n"
+              "--------------------------\n"
+              "---------> MENU <---------\n"
+              
+              
+              "\n1 - Activities Compilations\n"
+              "2 - Code_challenge_Compilations\n"
+              "0 - Terminate\n"
+              
+              )
+        
+        choose = int(input("Choose A number: "))
+
+        if choose == 1:
+                Acts()
+        elif choose == 2:
+                codes()
+        elif choose == 0:
+            print("This Activities  be terminated")
+
+            sur = input("Are you sure? (Yes/No): ").strip().lower()       
+            if sur == "yes":
+                delete()
+                print("The Activities will finally terminated")
+                break
+
+            elif sur == "no":
+                delete()
+                print("The Activities will still continue")
+                continue
+
+            else:
+                    print("Invalid Input")
+
+        elif choose < 0:
+            print("Error. Enter A Positive Number.")
+        elif choose >= 26:
+            print("Error.  Enter A number from the choices")
+        else:
+            print("Invalid input")
 
 menu()
