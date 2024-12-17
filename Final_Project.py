@@ -48,58 +48,83 @@ def Acts():
             cho = int(input("Choose A Number: "))
 
             if cho == 1:
+                delete()
                 Activity1.Act1()
             elif cho == 2:
+                delete()
                 Activity2.Act2()
             elif cho == 3:
+                delete()
                 Activity3.Act3()
             elif cho == 4:
+                delete()
                 Activity4.Act4()
             elif cho == 5:
+                delete()
                 Activity5.Act5()
             elif cho == 6:
+                delete()
                 Activity6.Act6()
             elif cho == 7:
+                delete()
                 Activity7.Act7()
             elif cho == 8:
+                delete()
                 Activity8.Act8()
             elif cho == 9:
+                delete()
                 Activity9.Act9()
             elif cho == 10:
+                delete()
                 Activity10.Act10()
             elif cho == 11:
+                delete()
                 Activity11.Act11()
             elif cho == 12:
+                delete()
                 Activity12.Act12()
             elif cho == 13:
+                delete()
                 Activity13.Act13()
             elif cho == 14:
+                delete()
                 Activity14.Act14()
             elif cho == 15:
+                delete()
                 Activity15.Act15()
             elif cho == 16:
+                delete()
                 Activity16.Act16()
             elif cho == 17:
+                delete()
                 Activity17.Act17()
             elif cho == 18:
+                delete()
                 Activity18.Act18()
             elif cho == 19:
+                delete()
                 Activity19.Act19()
             elif cho == 20:
+                delete()
                 Activity20.Act20()
             elif cho == 21:
+                delete()
                 Activity21.Act21()
             elif cho == 22:
+                delete()
                 Activity22.Act22()
             elif cho == 23:
+                delete()
                 Activity23.Act23()
             elif cho == 24:
+                delete()
                 Activity24.Act24()
             elif cho == 25:
+                delete()
                 Activity25.Act25()
 
             elif cho == 0:
-                print("This Activities  be terminated")
+                print("This Activities will be terminated")
                 sur = input("Are you sure? (Yes/No): ").strip().lower()
                           
                 if sur == "yes":
@@ -156,40 +181,56 @@ def codes():
         choi = int(input("Choose a Number:"))
      
         if choi ==  1:
+            delete()
             Code_Challenge1.code1()
         elif choi == 2:
+            delete()
             Code_Challenge2.code2()
         elif choi == 3:
+            delete()
             Code_Challenge3.code3()
         elif choi == 4:
+            delete()
             Code_Challenge4.code4()
         elif choi == 5:
+            delete()
             Code_Challenge5.code5()
         elif choi == 6:
+            delete()
             code_challenge6.code6()
         elif choi == 7:
+            delete()
             code_challenge7.code7()
         elif choi == 8:
+            delete()
             Code_Challenge8.code8()
         elif choi == 9:
+            delete()
             code_challenge9.code9()
         elif choi == 10:
+            delete()
             code_challenge10.code10()
         elif choi == 11:
+            delete()
             code_challenge11.code11()
         elif choi == 12:
+            delete()
             code_challenge12.code12()
         elif choi == 13:
+            delete()
             code_challenge13.code13()
         elif choi == 14:
+            delete()
             code_challenge14.code14()
         elif choi == 15:
+            delete()
             code_challenge15.code15()
         elif choi == 16:
+            delete()
             Code_Challenge16.code16()
     
         elif choi == 0:
-                print("This Activities  be terminated")
+                print("This Activities will be terminated")
 
                 sur = input("Are you sure? (Yes/No): ").strip().lower()          
                 if sur == "yes":
@@ -235,7 +276,7 @@ def menu():
         elif choose == 2:
                 codes()
         elif choose == 0:
-            print("This Activities  be terminated")
+            print("This Activities will be terminated")
 
             sur = input("Are you sure? (Yes/No): ").strip().lower()       
             if sur == "yes":
@@ -251,11 +292,7 @@ def menu():
             else:
                     print("Invalid Input")
 
-        elif choose < 0:
-            print("Error. Enter A Positive Number.")
-        elif choose >= 26:
-            print("Error.  Enter A number from the choices")
         else:
-            print("Invalid input")
-
+            print("Invalid input, Please choose from the choices below")
+            
 menu()
