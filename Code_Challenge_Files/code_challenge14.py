@@ -4,7 +4,7 @@ def code14():
     tut = True
     while tut:
         
-            num = int(input("Please enter a number: "))
+            num = int(input("Please enter a number(Enter 0 to stop): "))
             if num == 0:
                 print("Loop has now terminated")
                 print(f"The sum of all the numbers you entered is: {sum}")

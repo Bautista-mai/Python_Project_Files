@@ -25,6 +25,8 @@ def code10():
         for o in range(16, h, -1):
             print("*",end=" ")
         print()        
-            
+        
+
+
     
   

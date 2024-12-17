@@ -1,7 +1,7 @@
 def code4():
 
-    number1 = eval(input("enter a number -->"))
-    number2 = eval(input("Enter another number -->"))
+    number1 = eval(input("enter a number --> "))
+    number2 = eval(input("Enter another number --> "))
 
     answer1 = number1 + number2
     answer2 = number1 - number2
