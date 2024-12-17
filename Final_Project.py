@@ -618,5 +618,4 @@ def lis():
             print("\nInvalid input, Please enter from the choices only.")
             continue
     
-
 menu()
