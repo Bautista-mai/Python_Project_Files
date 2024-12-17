@@ -124,7 +124,7 @@ def Acts():
                     print("Invalid input")
             
             except ValueError:
-                print("Invalid, Please enter from the choices only")
+                print("\nInvalid, Please enter from the choices only")
                 continue
         
 def codes():
@@ -219,7 +219,7 @@ def codes():
                 print("Invalid input")
         
         except ValueError:
-                print("Invalid, Please enter from the choices only")
+                print("\nInvalid, Please enter from the choices only")
                 continue
 
 
@@ -270,7 +270,7 @@ def menu():
             else:
                 print("Invalid input")
         except ValueError:
-                print("Invalid input, Please enter from the choices only")
+                print("\nInvalid input, Please enter from the choices only")
                 continue
 
 menu()
