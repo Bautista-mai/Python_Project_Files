@@ -11,10 +11,10 @@ from Activity_Files import (
 
 from Code_Challenge_Files import (
 
-                    Code_Challenge1, Code_Challenge2, code_challenge3, code_challenge4, code_challenge5,
-                    code_challenge6, code_challenge7, Code_Challenge8, code_challenge9, code_challenge10,
-                    code_challenge11, code_challenge12, code_challenge13, code_challenge14, code_challenge15,
-                    code_challenge16    
+                    Code_Challenge1, Code_Challenge2, Code_Challenge3, Code_Challenge4, Code_Challenge5,
+                    Code_Challenge6, Code_Challenge7, Code_Challenge8, Code_Challenge9, Code_Challenge10,
+                    Code_Challenge11, Code_Challenge12, Code_Challenge13, Code_Challenge14, Code_Challenge15,
+                    Code_Challenge16    
 
                     )
 
@@ -172,33 +172,33 @@ def codes():
             elif choi == 2:
                 Code_Challenge2.code2()
             elif choi == 3:
-                code_challenge3.code3()
+                Code_Challenge3.code3()
             elif choi == 4:
-                code_challenge4.code4()
+                Code_Challenge4.code4()
             elif choi == 5:
-                code_challenge5.code5()
+                Code_Challenge5.code5()
             elif choi == 6:
-                code_challenge6.code6()
+                Code_Challenge6.code6()
             elif choi == 7:
-                code_challenge7.code7()
+                Code_Challenge7.code7()
             elif choi == 8:
                 Code_Challenge8.code8()
             elif choi == 9:
-                code_challenge9.code9()
+                Code_Challenge9.code9()
             elif choi == 10:
-                code_challenge10.code10()
+                Code_Challenge10.code10()
             elif choi == 11:
-                code_challenge11.code11()
+                Code_Challenge11.code11()
             elif choi == 12:
-                code_challenge12.code12()
+                Code_Challenge12.code12()
             elif choi == 13:
-                code_challenge13.code13()
+                Code_Challenge13.code13()
             elif choi == 14:
-                code_challenge14.code14()
+                Code_Challenge14.code14()
             elif choi == 15:
-                code_challenge15.code15()
+                Code_Challenge15.code15()
             elif choi == 16:
-                code_challenge16.code16()
+                Code_Challenge16.code16()
         
             elif choi == 0:
                     print("This Activities  be terminated.")
