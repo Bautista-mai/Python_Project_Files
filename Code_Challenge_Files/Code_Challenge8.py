@@ -7,3 +7,4 @@ def code8():
         for a in range(7, i, -1):
             print("*",end= " ")
         print()
+

@@ -1,5 +1,5 @@
 def Act11():
-    for i in range(89):
+    for i in range(10):
         print("Codieeee")
         print("Keep going")
         

@@ -8,3 +8,4 @@ def code9():
         for a in range(10, i, -1):
             print("*",end= " ")
         print()    
+
