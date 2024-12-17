@@ -462,5 +462,3 @@ def Act22():
             except ValueError:
                 print("Wrong Input. Must Be A Number.")
                 continue
-
-Act22()

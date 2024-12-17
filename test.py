@@ -1,4 +1,3 @@
-import turtle
+ko = "koil"
 
-screen = turtle.Screen
-#utfitufiu
+print(len(ko))
