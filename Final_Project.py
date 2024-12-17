@@ -31,6 +31,8 @@ def Acts():
                         "3 - Python Fundamentals\n"
                         "0 - Terminate\n"
                 
+                "======================================="
+                
                 "\n\n\t 1  - Activity_1  \t 14  - Activity_14"
                     "\n\t 2  - Activity_2  \t 15  - Activity_15"
                     "\n\t 3  - Activity_3  \t 16  - Activity_16"
@@ -139,8 +141,10 @@ def codes():
                         "\n1 - Activities Compilations\n"
                         "2 - Code_challenge_Compilations\n"
                         "3 - Python Fundamentals\n"
-                        "0 - Terminate "
-                
+                        "0 - Terminate\n\n "
+
+                "======================================="
+                            
                 "\n\n\t 1  - Code_Challenge1"
                     "\n\t 2  - Code_Challenge2"
                     "\n\t 3  - Code_Challenge3"
@@ -231,9 +235,9 @@ def delete():
 def menu():
     while True:
         try:
-            print("\nCOMPILATION OF PROJECTS\n"
-                "--------------------------\n"
-                "---------> MENU <---------\n"
+            print("\n-> COMPILATION OF PROJECTS <-\n"
+                "------------------------------\n"
+                "-----------> MENU <-----------\n"
                 
                 
                 "\n1 - Activities Compilations\n"
@@ -281,14 +285,17 @@ def menu():
 def funda():
     while True:
         try:
-            print("\nCOMPILATION OF PROJECTS\n"
-                        "--------------------------\n"
+            print("\n-----COMPILATION OF PROJECTS------\n"
+                        "---------------------------------\n"
                         "---------> FUNDAMENTALS <---------\n"
             
                         "\n1 - Activities Compilations\n"
                         "2 - Code_challenge_Compilations\n"
                         "3 - Python Fundamentals\n"
                         "0 - Terminate\n "
+
+                "======================================="
+                 
                 
                 "\n\n\t 1  - Print Statements"
                     "\n\t 2  - Function"
@@ -308,17 +315,17 @@ def funda():
             elif pick == 2:
                 funct()
             elif pick == 3:
-                 var()
+                var()
             elif pick == 4:
-                oper()
-            elif pick == 5:
                 con()
+            elif pick == 5:
+                oper()
             elif pick == 6:
                 loo()
             elif pick == 7:
                 lis()
             elif pick == 0:
-                print("This Activities  be terminated.")
+                print("This Activities will be terminated.")
 
                 sur = input("Are you sure? (Yes/No): ").strip().lower()       
                 if sur == "yes":
@@ -347,137 +354,197 @@ def funda():
 def statements():
     while True:
         try:
-
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nHello, world, Basic usage of print statement.")
-                print("123456789")
-                print("print('Hello, World!')")
-                print("print(123456789)")
+                print("\nprint('Hello, World!')\n"
+                     "#output: Hello, world!\n")
+                
+                print("\nprint(123456789)\n"
+                      "#output: 123456789\n\n")
                 continue
                 
             elif stat == "DESCRIPTION":
                 print("\nJust put a print before the parenthesis then inside, the parenthesis put the data or text you want to print.")
-                print("Print statement display information to the user. Wether it's a simple text, calculated values or contents of variables.")
- 
+                print("\nPrint statement display information to the user. Wether it's a simple text, calculated values or contents of variables.")
+            
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+                
+                
+
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.\n")
         
         except ValueError:
-            print("\nInvalid input, Please enter from the choices only.")
+            print("\nInvalid input, Please enter from the choices only.\n")
             continue
     
 def funct():
     while True:
         try:
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
 
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
-            
             if stat == "EXAMPLE":
-                print("Built-in functions:print(), input(), len(), max(), min(), sum(), "
-                      "print(Hello, world!), #output: Hello, world!"
-                      "input('ENTER A NUMBER:') #output: ENTER A NUMBER:"
-                      "len('koil') #output: 4"
-                      "max(numbers) #output maximum number"
-                      "min(numbers) #output minimum number"
-                      "sum(numbers) #output summation of number"
+                print("\nBuilt-in functions:print(), input(), len(), max(), min(), sum(),\n\n"
+                      "\nprint(Hello, world!)"
+                      "\n#output: Hello, world!\n"
+                      "\ninput('ENTER A NUMBER:')"
+                      "\n#output: ENTER A NUMBER:\n"
+                      "\nko = 'koil'"
+                      "\nlen('koil')"
+                      "\n#output: 4\n"
+                      "\nmax(numbers)"
+                      "\n#output maximum number\n"
+                      "\nmin(numbers)"
+                      "\n#output minimum number\n"
+                      "\nsum(numbers)"
+                      "\n#output summation of number\n\n"
 
                       )
-                print("User-defined function: def functions():"
-                      "def cute() #output can use/call the function just type the funtion name "
+                      
+                print("User-defined function - can use/call the function just type the funtion name "
+                "\ndef functions():"
+                "\n\tprint('Hello, world!')\n"
+                "\nfunctions()\n"
+                "#output:Hello, World!\n"
                       )
                 continue
                 
             elif stat == "DESCRIPTION":
                 print("\nFunctions are reusable blocks of code that perform specific task.")
-                print("Essential for modularizing code, enhancing readability, and code reusability.")
+                print("\nEssential for modularizing code, enhancing readability, and code reusability.\n")
+
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+                
             else:
-                print("Invalid input, Please enter from the choices above.")
+                print("\nInvalid input, Please enter from the choices given.\n")
         
         except ValueError:
-            print("\nInvalid input, Please enter from the choices only.")
+            print("\nInvalid input, Please enter from the choices only.\n")
             continue
     
 def var():
     while True:
         try:
-
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nx = 10 #10 will be the output, if you print(x)"
-                      "name = alice #if you use the print(name), alice will be the output.")
+                print("\nx = 10"
+                "\n\tprint(x)"
+                "\n#output: 10\n\n"
+                "\nname = alice\n"
+                "\n\tprint(name)\n"
+                "output: alice\n\n")
                 continue
                 
             elif stat == "DESCRIPTION":
                 print("\nVariables are symbolic names to memory locations where data is stored.")
-                print("It allows you to store, manipulate, and access data through code.")
+                print("\nIt allows you to store, manipulate, and access data through code.\n")
+
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+                
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.\n")
         
         except ValueError:
-            print("\nInvalid input, Please enter from the choices only.")
+            print("\nInvalid input, Please enter from the choices only.\n")
             continue
 
 def oper():
     while True:
         try:
-
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\n+ aaddition, 1 + 1."
-                      "- subtraction, 1 - 1"
-                      "* multiplication, 8 * 8"
-                      "/ division, 89 / 9"
-                      "// floor devision, 1000//500"
-                      "% modulus, 10 % 3"
-                      "** exponentiation, 10 ** 2"
+                print("\n+ aaddition, 1 + 1.\n"
+                      "- subtraction, 1 - 1\n"
+                      "* multiplication, 8 * 8\n"
+                      "/ division, 89 / 9\n"
+                      "// floor devision, 1000//500\n"
+                      "% modulus, 10 % 3\n"
+                      "** exponentiation, 10 ** 2\n"
                       )
                 
-                print("== equal to, 10 == 5"
-                     "!= not equal to, 10 != 5"
-                      "> greater than, 10 > 5" 
-                      "< less than, 10 < 5"
-                      ">= greater than or eqal, 10 >= 5"
-                      "<= less than or equal to, 10 <= 5")
+                print("== equal to, 10 == 5\n"
+                     "!= not equal to, 10 != 5\n"
+                      "> greater than, 10 > 5\n" 
+                      "< less than, 10 < 5\n"
+                      ">= greater than or eqal, 10 >= 5\n"
+                      "<= less than or equal to, 10 <= 5\n"
+                      
+                      )
                 continue
                 
             elif stat == "DESCRIPTION":
-                print("\nOperators determines the order of operation in complex expressions.")
-        
+                print("\nOperators determines the order of operation in complex expressions.\n")
+
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+               
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.\n")
         
         except ValueError:
-            print("\nInvalid input, Please enter from the choices only.")
+            print("\nInvalid input, Please enter from the choices only.\n")
             continue
 
 def con():
     while True:
         try:
-
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nif statements - if age >= 18: print('you are adult.') #output: you are adult."
-                      "If the condidtion is True, the intended code block is executed: otherwise, it's skipped."
-                      )
-                print("if-else - else age <= 18: print('you are minor') #output: you are minor"     
-                    "This handle two possibilities: if false, and the if is true else statement execute")
-                print("else - else: print('Invalid Input') #output: Invalid input"
-                      "If none of the preceding conditions are true else statement is executed.")
-                print("nested if statements - if statements inside other if statements to create more logic")
-                print("boolean operators in condition - and, or, not operators used to modify conditions.")
+                print("\nif statements - If the condidtion is True, the intended code block is executed: otherwise, it's skipped.\n"
+                "if age >= 18:"
+                "\n\tprint('you are adult.')"
+                "\n#output: you are adult.\n"
+                      
+                    )
+
+
+                print("if-elif - This handle two possibilities: if false, and the if is true else statement execute"
+                "\nelif age <= 18:\n"
+                "\tprint('you are minor')\n"
+                "#output: you are minor\n\n"     
+                    )
+                
+                print("else - nested if statements - if statements inside other if statements to create more logic"
+                "else:"
+                "\n\tprint('Invalid Input')\n"
+                "#output: Invalid input\n\n"
+
+                    )
+                
+                print("\nboolean operators in condition - and, or, not operators used to modify conditions.\n")
                 continue
                 
             elif stat == "DESCRIPTION":
                 print("\nConditionals in pyhton control the flow of wxecution based on wether certain conditons met.")
-                print("It allows the program to make decisions and execute different blocks of code depending on the state of your variables.")
+                print("\nIt allows the program to make decisions and execute different blocks of code depending on the state of your variables.\n")
 
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+                
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.\n")
         
         except ValueError:
             print("\nInvalid input, Please enter from the choices only.")
@@ -486,30 +553,37 @@ def con():
 def loo():
     while True:
         try:
-
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\n\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nfor loops - for i in range (1, 6): print(cute)"
-                      "#output: \ncute."
+                print("\nfor loops - It iterate over sequence(like a list, turple, string, or range).\n"
+                "for i in range (1, 6):\n"
+                "\tprint(cute)\n"
+                      "#output: \ncute"
                       "\ncute"
-                      "\ncute"
-                      "cute"
+                      "\ncute\n"
+                      "cute\n\n"
                       "It iterate over sequence(like a list, turple, string, or range)."
                       
                         )
                 
                 print("while loops - while count < 5:"
-                      "print (count)"
-                      "count += 1"
+                      "\tprint (count)\n"
+                      "\tcount += 1\n"
                       "#output: it will print number 0 to 4")
                 continue
                 
             elif stat == "DESCRIPTION":
                 print("\nIt is used to repeatedly execute block of code.")
+
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
                 
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.")
         
         except ValueError:
             print("\nInvalid input, Please enter from the choices only.")
@@ -518,18 +592,27 @@ def loo():
 def lis():
     while True:
         try:
-
+            print("\n\nEnter stop to go back from the menu")
             stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nHello, world, Basic usage of print statement.")
+                print("\nmy_list = [1,2,3,4,5].\n"
+                "\tprint(my_list[0])\n"
+                "#output(first element):\n"
+                "1\n")
                 continue
                 
             elif stat == "DESCRIPTION":
-                print("\nJust put a print before the parenthesis then inside, the parenthesis put the data or text you want to print.")
-                print("Print statement display information to the user.")
+                print("\nIt is an ordered, mutable(changeable) sequence of items.\n")
+                print("It can contain different types of data.\n")
+
+            elif stat == "STOP":
+                print("\nProgram will go back to menu")
+                menu()
+                break
+
             else:
-                print("Invalid input, Enter from the choices above.")
+                print("\nInvalid input, Enter from the choices given.")
         
         except ValueError:
             print("\nInvalid input, Please enter from the choices only.")
