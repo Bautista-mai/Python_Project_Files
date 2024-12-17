@@ -104,5 +104,3 @@ def code16():
 
     if __name__ == "__main__":
         run()
-
-code16()
