@@ -9,7 +9,7 @@ def code3():
     birthday = input("When is your birthday: ")
     birthplace = input("Where were you born: ")
     religion = input("What is your religion: ")
-    f_name = input("What is your fathers name:")
+    f_name = input("What is your fathers name: ")
     m_name = input("What is your mothers name: ")
     marital = input("What is your civil status: ")
     citizenship = input("what is your citizenship: ")
