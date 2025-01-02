@@ -354,7 +354,7 @@ def funda():
 def statements():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
@@ -386,7 +386,7 @@ def statements():
 def funct():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
 
             if stat == "EXAMPLE":
@@ -434,15 +434,15 @@ def funct():
 def var():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
-                print("\nx = 10"
-                "\n\tprint(x)"
+                print("\nx = 10\n"
+                "\nprint(x)"
                 "\n#output: 10\n\n"
                 "\nname = alice\n"
-                "\n\tprint(name)\n"
+                "\nprint(name)\n"
                 "output: alice\n\n")
                 continue
                 
@@ -465,7 +465,7 @@ def var():
 def oper():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
@@ -506,7 +506,7 @@ def oper():
 def con():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
@@ -535,7 +535,7 @@ def con():
                 continue
                 
             elif stat == "DESCRIPTION":
-                print("\nConditionals in pyhton control the flow of wxecution based on wether certain conditons met.")
+                print("\nConditionals in pyhton control the flow of execution based on wether certain conditons met.")
                 print("\nIt allows the program to make decisions and execute different blocks of code depending on the state of your variables.\n")
 
             elif stat == "STOP":
@@ -553,7 +553,7 @@ def con():
 def loo():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
+            print("\nEnter stop to go back from the menu")
             stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
@@ -592,8 +592,8 @@ def loo():
 def lis():
     while True:
         try:
-            print("\n\nEnter stop to go back from the menu")
-            stat = input("\nDo you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
+            print("\nEnter stop to go back from the menu")
+            stat = input("Do you want to know the Definition or Example?(DESCRIPTON/EXAMPLE): ").upper().strip()
             
             if stat == "EXAMPLE":
                 print("\nmy_list = [1,2,3,4,5].\n"
