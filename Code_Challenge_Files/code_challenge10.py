@@ -26,7 +26,3 @@ def code10():
             print("*",end=" ")
         print()        
         
-
-
-    
-  
