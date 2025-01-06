@@ -1,3 +1,3 @@
 ko = "koil"
-
-print(len(ko))
+num = "gouynv"
+print(len(num))

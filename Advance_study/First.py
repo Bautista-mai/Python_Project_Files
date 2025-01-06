@@ -1,0 +1,5 @@
+print("Hello!")
+print("o----")
+print(" ||||")
+print("*" * 10)
+print("HI" * 5)
