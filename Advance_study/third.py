@@ -15,6 +15,7 @@ while  True:
 
     else:
         print("Have a good day!")
+        break
 
 
 
